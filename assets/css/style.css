@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F6DDC8;
+    width: 100%;
+    margin: 0;
+    color: #2e282a;
+}
+header{
+    text-align: center;
+    padding: 50px;
+    background-image: url(../images/bg3-min.jpg);
+    background-repeat: no-repeat;
+}
+header span{
+    font-weight: bold;
+    padding: 5px;
+    background-color: #F6DDC8;
+    color: #2E282A;
+    font-size: 30px;
+    border-radius: 5px;
+}
+main{
+    margin: 0 auto;
+    width: 80%;
+}
+main h2 {
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #2e282a;
+    clear: both;
+}
+nav{
+    padding: 8px;
+    background-color: #2e282a;
+}
+nav ul{
+    width: 80%;
+    margin: 10px auto;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 11px;
+    margin: 0 15px;
+    color: #f6ddc8;
+}
+nav ul li a:hover{
+    background-color: #f6ddc8;
+    color: #2e282a;
+}
+.active{
+    background-color: #2e282a;
+    color: #f6ddc8;
+    border-bottom: 1px solid #f6ddc8;
+}
+
+
+/*index page css*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about>div{
+    padding: 10px;
+}
+.about> div> p {
+    margin: 5px 0;
+}
+.about> div> h4, .about> div> ul{
+    margin: 7px 0;
+}
+.about{
+    margin: 5px 0 20px 30px;
+    box-shadow: 0 0 5px 1px #2e282a;
+    float: right;
+}
+.summary{
+    text-align: justify;
+    margin: 0 20px;
+    box-shadow: 0 0 5px 1px #2e282a;
+    padding: 10px 20px;
+}
+.wrapper> p{
+    text-align: justify;
+    line-height: 1.7;
+}
+.about> img{
+    height: 205px;
+    width: 224px;
+}
+.links li{
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+    padding: 1px 3px;
+    border: 1px solid #f6ddc8;
+}
+.links li:hover{
+    padding: 1px 3px;
+    border: 1px solid #2e282a;
+}
+.links li a i{
+    color: #2e282a;
+}
+.portfolioWorkImg{
+    width: 250px;
+    float: right;
+    margin: 10px;
+    border: 1px solid #000000;
+}
+.portfolioDiv ul li, .portfolioDiv p{
+    line-height: 1.6;
+}
+.portfolioDiv p em a:hover, .portfolioDiv p em a:active, .portfolioDiv p em a {
+    color: #A1B5D8;
+    text-decoration: none;
+}
+
+/*contact page css*/
+form{
+    margin: 20px 30px;
+}
+.contactFormField{
+    width: 400px;
+    margin-top: 7px;
+    padding: 9px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e282a;
+}
+.contactFormField:focus{
+    outline: none;
+}
+#contactFormSubmit{
+    color: #f6ddc8;
+    background-color: #2e282a;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+}
+#contactFormSubmit:focus{
+    outline: none;
+}
+
+/* footer css */
+footer{
+    padding: 10px;
+    background-color: #2e282a;
+    color: #f6ddc8;
+    text-align: center;
+    margin-top: 20px;
+    clear: both;
+}
